@@ -5,6 +5,13 @@
     width: 100vw;
 }
 
+.Email {
+
+    display: block;
+    margin-top: -250px;
+
+}
+
 .Rectangle {
 
 width: 55vw;
@@ -71,7 +78,7 @@ display: relative;
 }
 
 .AboutMe:hover .Line {
-margin-right: -230px;
+margin-right: -225px;
 
 }
 
@@ -143,7 +150,7 @@ color: #8a8bd1
 .Niko {
     
   position: absolute;
-    width:1005px;
+    width:1004px;
     height: 560px;
     margin-left: 5%;
     margin-top: 80px;
@@ -181,7 +188,7 @@ z-index: 4;
 
 @media all and (max-width: 1700px) {
 .Niko {
-    width:897.3px;
+    width:895.3px;
     height: 500px;
     margin-left: 5%;
     margin-top: 100px;
@@ -253,7 +260,7 @@ width: 470px;
     }
 
     .AboutMe:hover .Line {
-        margin-right: -290px;
+        margin-right: -300px;
         
         }
 .Descr{
@@ -307,7 +314,7 @@ width: 420px;
         }
     
         .AboutMe:hover .Line {
-            margin-right: -290px;
+            margin-right: -300px;
             
             }
 
@@ -326,7 +333,10 @@ width: 380px;
 
         
         @media all and (max-width: 992px) {
-
+.Email {
+    margin-top: -140px;
+    transform: translate(10px);
+}
             
             .Niko {
                
@@ -334,17 +344,21 @@ width: 380px;
 position: relative;
               
               
-                width:501.2px;
+                width:501.2 !important;
+                
                
                 height: 280px;
-                margin-left: 23%;
+                text-align: center;
+                transform: translate(-15%);
                 
                 margin-top: 80px;
                 
                 
             } 
+            
             .Rectangle {
                 display: block;
+                background: black;
                 position: relative;
                 margin: auto;
             width: 60vw;
@@ -461,7 +475,8 @@ z-index: 4;
 
             @media all and (max-width: 800px) {
 .Niko {
-    margin-left: 22%;
+   margin-left: 0px;
+   transform: translate(-28%);
 }
 
 .Descr {
@@ -482,6 +497,8 @@ font-size: 16px;
 
 
             }       
+
+            
     
             
         

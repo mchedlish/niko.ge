@@ -8,14 +8,14 @@ textAlign:'center',
 fontWeight:500,
 fontSize: 26,
 letterSpacing: 2.93,
-color: '#ffffff',
-marginTop: -20
+color: '#ffffff'
+
 
 
 }
 
     return (
-        <div style={style}>
+        <div style={style} className='Email'>
             <p>niko@niko.ge</p>
         </div>
     );
