@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="907px" height="505px" viewBox="0 0 907 505" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>NikoCover Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="NikoCover-Copy" filter="url(#filter-1)" fill="#1B1A1B">
+            <g id="Combined-Shape-4">
+                <g id="Combined-Shape-3">
+                    <g id="Combined-Shape-2">
+                        <path d="M402.118227,0 L402.118227,505.665933 L470.418985,505.665933 L470.418985,380.087475 L498.645799,322.119764 L570.513961,505.665933 L652.054601,505.665933 L544.669487,222.404422 L646.272406,0 L907,0 L907,510 L0,510 L0,506.54193 L69.5119997,506.54193 L69.5119997,236.236702 L180.721076,506.54193 L236.516726,506.54193 L236.516726,0 L402.118227,0 Z M470.418985,0 L567.951853,0 L470.418985,208.225981 L470.418985,0 Z M58.0680361,0 L167.788368,0 L167.788368,268.358959 L58.0680361,0 Z M284.163547,1.80851064 L284.163547,507.128283 L354.356215,507.128283 L354.356215,1.80851064 L284.163547,1.80851064 Z M769.833005,506.382979 C845.094725,506.382979 906.106404,393.025288 906.106404,253.191489 C906.106404,113.357691 845.094725,0 769.833005,0 C694.571285,0 633.559606,113.357691 633.559606,253.191489 C633.559606,393.025288 694.571285,506.382979 769.833005,506.382979 Z M770.279803,388.829787 C734.252881,388.829787 705.047291,328.507302 705.047291,254.095745 C705.047291,179.684188 734.252881,119.361702 770.279803,119.361702 C806.306725,119.361702 835.512315,179.684188 835.512315,254.095745 C835.512315,328.507302 806.306725,388.829787 770.279803,388.829787 Z" id="Combined-Shape-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,19 +1,33 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    background-color: black;
 
+}
+.NotVisible {
+    display: none !important;
 }
 
 .Header {
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
    }
 
 .Logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    
+    -ms-flex-wrap: nowrap;
+    
+        flex-wrap: nowrap;
     margin-left: 40px;
     margin-top: 30px;
 
@@ -25,32 +39,434 @@ body {
    
     font-weight: 500;
     font-size: 22px;
+    text-transform: uppercase;
+    color: white;
 }
 
 .Contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
     font-weight: 500;
     font-size: 22px;
-    margin-top: 12px;
+    
     margin-top: 42px;
+    
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    color: white;
+    
+    
+    
 }
 
+
 .contactCircle {
-background-color: black;
+background-color:white;
 height: 15px;
 width: 15px;
 border-radius: 50%;
 margin-top: 29px;
 margin-left: 20px;
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
 
 
 }
 .contactRectangle {
-background-color: black;
-height: 2px;
+background-color:white;
+height: 2px !important;
 width: 80px;
 margin-top: 35px;
 margin-left: 5px;
+margin-right: -30px;
+-webkit-transition: all 0.3s;
+-o-transition: all 0.3s;
+transition: all 0.3s;
+
 
 }
+
+@media all and  (max-width: 992px) {
+.Logo img {
+width: 75px;
+height: 73px;
+
+}
+
+.ReactDeveloper {
+    font-size: 17.6px;
+}
+.Contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    font-weight: 500;
+    font-size: 18px;
+    
+    margin-top: 42px;
+    
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+    
+    
+}
+.contactCircle {
+
+    margin-top: 23px;
+    height: 12px;
+    width: 12px;
+}
+
+.contactRectangle {
+
+    margin-top: 29px;
+    height: 1.6px;
+}
+
+}
+
+@media all and  (max-width: 762px) {
+    .Logo img {
+    width: 60px;
+    height: 58px;
+    
+    }
+    
+    .ReactDeveloper {
+        font-size: 14px;
+        margin-left: 45px;
+    }
+    .Contact {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        font-weight: 500;
+        font-size: 14px;
+        
+        margin-top: 42px;
+        
+        text-transform: uppercase;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        cursor: pointer;
+        
+        
+        
+    }
+    .contactCircle {
+    
+        margin-top: 23px;
+        height: 10px;
+        width: 10px;
+        margin-top: 18px;
+    }
+    
+    .contactRectangle {
+    
+        margin-top: 22px;
+        height: 1px !important;
+    }
+    
+    }
+
+.ContactSection {
+    position: absolute;
+    /* width:691px;
+    height: 1043px; */
+    right: 0;
+    z-index: 2;
+    color: white;
+    background-color: #1b1a1b;
+    -webkit-animation-name: grow;
+            animation-name: grow;
+    -webkit-animation-duration: 0.3s;
+            animation-duration: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+   
+   
+
+}
+
+
+
+@-webkit-keyframes grow {
+0% {
+    width: 0;
+    height: 0;
+    right: 0;
+    
+   
+}
+
+100% {
+    width: 691px;
+    height: 95vh;
+    right: 0;
+  
+}
+
+
+
+}
+
+@keyframes grow {
+0% {
+    width: 0;
+    height: 0;
+    right: 0;
+    
+   
+}
+
+100% {
+    width: 691px;
+    height: 98vh;
+    right: 0;
+  
+}
+
+
+
+}
+
+.Fold {
+   position:absolute;
+   -webkit-animation: fold;
+           animation: fold;
+   -webkit-animation-duration: 0.3s;
+           animation-duration: 0.3s;
+   -webkit-animation-fill-mode: forwards;
+           animation-fill-mode: forwards;
+   right: 0;
+
+    
+  
+    
+   
+}
+
+@-webkit-keyframes fold {
+0% {
+-webkit-transform: scale(1);
+        transform: scale(1);
+
+}
+
+100% {
+
+    -webkit-transform: scale(0);
+
+            transform: scale(0);
+   
+    
+}
+
+
+}
+
+@keyframes fold {
+0% {
+-webkit-transform: scale(1);
+        transform: scale(1);
+
+}
+
+100% {
+
+    -webkit-transform: scale(0);
+
+            transform: scale(0);
+   
+    
+}
+
+
+}
+
+
+
+
+.ContactSection img {
+    position: absolute;
+    right: 30px;
+    top:60px;
+    opacity: 0;
+
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+
+}
+.ContactSection p {
+    position: absolute;
+    right: 30px;
+    opacity: 0;
+
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+
+
+}
+.ContactSection p:nth-child(2) {
+
+    margin-top: 440px;
+    text-transform: uppercase;
+    font-size: 22px;
+    letter-spacing: 2.93px;
+}
+
+.ContactSection p:nth-child(3) {
+
+    margin-top: 480px;
+    font-size: 22px;
+    letter-spacing: 2.93px;
+}
+
+.ContactSection p:nth-child(4) {
+
+    margin-top: 520px;
+    font-size: 22px;
+    letter-spacing: 2.93px;
+}
+
+
+.ContactSection p:nth-child(5) {
+
+    margin-top: 560px;
+    font-size: 22px;
+    letter-spacing: 2.93px;
+}
+
+.ContactSection p:nth-child(6) {
+
+    margin-top: 600px;
+    font-size: 22px;
+    letter-spacing: 2.93px;
+}
+
+
+
+.Close {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    font-weight: 500;
+    font-size: 22px;
+    right: 110px;
+    
+    margin-top: 42px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    z-index: 3;
+    color: white;
+   
+
+}
+
+
+.closeCircle {
+    background-color: white;
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    right: -22px;
+    border-radius: 50%;
+    margin-top: 29px !important;
+    margin-right: -2px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    
+    
+    }
+    .closeRectangle {
+        position: absolute;
+        
+    background-color:white;
+    height: 2px;
+    width: 80px;
+    
+    margin-top: 36px !important;
+    right: -110px !important;
+    
+    -webkit-transition: all 0.3s;
+    
+    -o-transition: all 0.3s;
+    
+    transition: all 0.3s;
+    
+    
+    }
+    .ContactSection img {
+       
+        margin-top: 200px;
+    }
+
+    .Contact:hover {
+   
+
+        margin-right: 30px;
+    }
+
+  
+
+    @keyframes fadeIn {
+    0% {
+opacity: 0;
+
+    }
+   100% {
+
+    opacity: 1;
+   }
+
+    }
+
+    @media all and  (max-width: 992px) {
+.Close {
+    font-size: 18px;
+    z-index: 5;
+}
+.closeCircle {
+height: 12px;
+width: 12px;
+margin-top: 24px !important;
+
+}
+
+.closeRectangle {
+    height: 1.6px;
+    margin-top: 30px !important;
+}
+
+.ContactSection {
+    z-index: 4;
+}
+
+    }
