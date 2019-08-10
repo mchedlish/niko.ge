@@ -9,7 +9,7 @@ import Rectangle from './Rectangle'
 const Body = () => {
     return (
         <div className='Body'>
-      
+    
         
        <Niko/>
        

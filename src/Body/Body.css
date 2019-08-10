@@ -111,14 +111,15 @@ margin-right: -230px;
     display: none;
 }
 
-.Description {
+.Descr {
 width: 481px;
 height: 401px;
-right: 15px;
-margin-top: 60px;
+right: 60px;
+margin-top: 90px;
+font-size: 22px;
 text-align: right;
 color: white;
-font-size: 22px;
+
 letter-spacing: 2.93px;
 position: absolute;
 animation: fadein 0.4s;
@@ -204,7 +205,11 @@ margin-left: 1px;
 margin-top: 52px;
 
 }
-
+.Descr {
+margin-top: 70px;
+font-size: 22px;
+width: 470px;
+}
 
 }
 
@@ -251,6 +256,13 @@ margin-top: 52px;
         margin-right: -290px;
         
         }
+.Descr{
+        margin-top: 90px;
+font-size: 14px;
+width: 420px;
+
+
+}
     }
 
     @media all and (max-width: 1200px) {
@@ -298,6 +310,18 @@ margin-top: 52px;
             margin-right: -290px;
             
             }
+
+
+.Descr {
+    margin-top: 45px;
+font-size: 14px;
+width: 380px;
+
+
+}
+
+
+
         }
 
         
@@ -409,13 +433,53 @@ z-index: 4;
                    margin-top: -60px;
                }
 
+               .Description {
+                   display: block !important;
+                   width: 90%;
+                   
+               }
+
+               .Descr {
+                   display: block !important;
+                   width: 90%;
+                   right: 0;
+                   text-align: center;
+                   
+                   
+                   
+                   
+                margin-top: 70px;
+                margin-right: 36px;
+                
+               
+        font-size: 20px;
+        }
+        
+
                
             }
 
             @media all and (max-width: 800px) {
 .Niko {
-    margin-left: 18%;
+    margin-left: 22%;
 }
+
+.Descr {
+    display: block !important;
+    width: 90%;
+    right: 0;
+    text-align: center;
+    
+    
+    
+    
+ margin-top: 70px;
+ margin-right: 32px;
+ 
+
+font-size: 16px;
+}
+
 
             }       
     

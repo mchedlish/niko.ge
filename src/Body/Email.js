@@ -6,10 +6,11 @@ const style= {
 
 textAlign:'center',
 fontWeight:500,
-fontSize: 22,
+fontSize: 26,
 letterSpacing: 2.93,
 color: '#ffffff',
-marginTop: 75
+marginTop: -20
+
 
 }
 

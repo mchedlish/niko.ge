@@ -2,7 +2,7 @@ import React from 'react';
 
 const Description = () => {
     return (
-        <div className='Description'>
+        <div className='Descr'>
 
         <p><span>React</span> developer with advanced programming and design skills.
         <span>HTML, CSS, Vanilla Javascript, ES6, jQuery, Bootstrap,</span> several  animataion libraries are commonly used tools during project development.
