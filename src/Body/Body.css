@@ -1,16 +1,21 @@
 .Body {
     display: block;
     position: relative;
-    height: 100vh;
+   
     width: 100vw;
 }
 
 .Email {
 
-    display: block;
-    margin-top: -250px;
+   display: block;
+   position: relative;
+
+text-align: center;
+   margin-top: 750px;
 
 }
+
+
 
 .Rectangle {
 
@@ -217,6 +222,10 @@ margin-top: 70px;
 font-size: 22px;
 width: 470px;
 }
+.Email {
+
+    margin-top: 740px;
+}
 
 }
 
@@ -268,6 +277,11 @@ width: 470px;
 font-size: 14px;
 width: 420px;
 
+
+}
+
+.Email {
+margin-top: 700px;
 
 }
     }
@@ -326,7 +340,10 @@ width: 380px;
 
 
 }
+.Email {
 
+    margin-top: 620px;
+}
 
 
         }
@@ -334,7 +351,7 @@ width: 380px;
         
         @media all and (max-width: 992px) {
 .Email {
-    margin-top: -140px;
+    margin-top: 0;
     transform: translate(10px);
 }
             
@@ -468,7 +485,11 @@ z-index: 4;
                
         font-size: 20px;
         }
-        
+        .react-player {
+            position: fixed !important;
+            text-align: center;
+            transform: translate(-3%);
+        }
 
                
             }
@@ -494,7 +515,11 @@ z-index: 4;
 
 font-size: 16px;
 }
-
+.react-player {
+    position: fixed !important;
+    text-align: center;
+    transform: translate(3%)
+}
 
             }       
 

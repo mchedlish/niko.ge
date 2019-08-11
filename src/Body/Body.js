@@ -3,6 +3,7 @@ import './Body.css'
 import Niko from './Niko'
 
 
+
 import Rectangle from './Rectangle'
 
 
@@ -16,6 +17,8 @@ const Body = () => {
            
            
            <Rectangle/> 
+         
+
           
         </div>
     );
