@@ -43,6 +43,9 @@ right: 0;
     text-align: right;
     margin-right: 70px;
     line-height: 1.5;
+    -webkit-animation: fadein 0.8s;
+    animation: fadein 0.8s;
+
 }
 
 .TextAbout p:nth-child(1) {

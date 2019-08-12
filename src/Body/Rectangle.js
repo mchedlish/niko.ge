@@ -11,6 +11,11 @@ description:'NotVisible'
 }
 
     render() {
+if (this.state.visibility=='NotVisible' && this.state.description=='Description') {
+setTimeout (()=> this.setState({visibility:'', description:'NotVisible'}), 12000)
+
+}
+
         return (
             <div className='Rectangle'>
             <div className={this.state.visibility}>

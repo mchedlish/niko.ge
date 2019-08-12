@@ -32,6 +32,10 @@ body {
     margin-top: 30px;
 
 }
+.Logo img {
+
+    cursor: pointer;
+}
 
 .ReactDeveloper {
     margin-left: 80px;
