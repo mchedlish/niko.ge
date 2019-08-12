@@ -3,6 +3,8 @@
 import NikoLogo from './NikoLogo.svg';
 import './Header.css';
 
+
+
 import React, { Component } from 'react'
 
 export default class ContactSection extends Component {
@@ -11,6 +13,8 @@ export default class ContactSection extends Component {
     render() {
         return (
             <div className='ContactSection'>
+
+          
         
        <img src={NikoLogo}/>
        <p>Contact</p>

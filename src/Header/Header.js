@@ -1,11 +1,13 @@
-
+import React, { Component } from 'react'
 import Logo from './Logo';
 import Contact from './Contact'
 import ContactSection from './ContactSection'
 import Close from './Close'
 
 
-import React, { Component } from 'react'
+
+
+
 
 export default class Header extends Component {
 
@@ -33,6 +35,7 @@ visibility:'NotVisible'
         
         return (
             <div className='Header'>
+          
             <Logo/>
             <div onClick={()=>this.setState((prevState)=>({visibility:'ContactSection'}))}  >
             <Contact name="Contact"/>
