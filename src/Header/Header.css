@@ -144,14 +144,16 @@ height: 73px;
 
 @media all and  (max-width: 762px) {
     .Logo img {
-    width: 60px;
-    height: 58px;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
     
     }
     
     .ReactDeveloper {
-        font-size: 14px;
-        margin-left: 45px;
+        font-size: 8px;
+        margin-left: 10px;
+        margin-top: 7px;
     }
     .Contact {
         display: -webkit-box;
@@ -160,9 +162,9 @@ height: 73px;
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 8px;
         
-        margin-top: 42px;
+        margin-top: 38px;
         
         text-transform: uppercase;
         -webkit-transition: all 0.3s;
@@ -178,12 +180,12 @@ height: 73px;
         margin-top: 23px;
         height: 10px;
         width: 10px;
-        margin-top: 18px;
+        margin-top: 10px;
     }
     
     .contactRectangle {
     
-        margin-top: 22px;
+        margin-top: 14px;
         height: 1px !important;
     }
     
@@ -475,4 +477,86 @@ margin-top: 24px !important;
 
     }
 
-    
+    @media all and  (max-width: 992px) {
+        .Close {
+            font-size: 18px;
+            z-index: 5;
+        }
+        .closeCircle {
+        height: 12px;
+        width: 12px;
+        margin-top: 24px !important;
+        
+        }
+        
+        .closeRectangle {
+            height: 1.6px;
+            margin-top: 30px !important;
+        }
+        
+        .ContactSection {
+            z-index: 4;
+        }
+        
+            }
+        
+            @media all and  (max-width: 762px) {
+                .Close {
+                    font-size: 8px;
+                    z-index: 5;
+                    
+                }
+                .Close p {
+
+                    margin-right: -25px
+                }
+                .closeCircle {
+                height: 10px;
+                width: 10px;
+                margin-top: 10px !important;
+                
+                }
+                
+                .closeRectangle {
+                    height: 1.6px;
+                    margin-top: 15px !important;
+                }
+                
+                .ContactSection {
+                    z-index: 4;
+                }
+                
+               .ContactSection img {
+
+                width: 66px;
+                margin-top: 30px;
+               }
+               
+               .ContactSection p:nth-child(2) {
+                   margin-top: 200px;
+                   font-size: 14px;
+               }
+
+               .ContactSection p:nth-child(3) {
+                margin-top: 230px;
+                font-size: 14px;
+            }
+
+            .ContactSection p:nth-child(4) {
+                margin-top: 260px;
+                font-size: 14px;
+            }
+
+            .ContactSection p:nth-child(5) {
+                margin-top: 290px;
+                font-size: 14px;
+            }
+
+            .ContactSection p:nth-child(6) {
+                margin-top: 320px;
+                font-size: 14px;
+            }
+
+                    }
+                
+                       

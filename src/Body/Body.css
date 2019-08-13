@@ -573,6 +573,55 @@ font-size: 16px;
         -ms-transform: translate(3%);
             transform: translate(3%)
 }
+/*  Changes to  mobile screen */
+.Niko {
+    display: none;
+}
+
+
+.TextAbout p:nth-child(1) {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.TextAbout p:nth-child(2) {
+    font-size: 22px;
+    text-align: center;
+}
+
+.TextAbout p:nth-child(3) {
+    font-size: 22px;
+    text-align: center;
+}
+
+.TextAbout p:nth-child(4) {
+    font-size: 22px;
+    text-align: center;
+}
+.Line {
+    display: none;
+}
+.AboutMe
+ {
+     display: block;
+     position: relative;
+     margin-top: 40px;
+     
+     
+}
+.AboutMe img {
+    margin-left: -6px;
+}
+.Email {
+    margin-top: -70px;
+    
+}
+
+
+
+
+
+
 
             }       
 
